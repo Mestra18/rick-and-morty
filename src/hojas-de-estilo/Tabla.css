@@ -1,0 +1,73 @@
+.personajes, .personajes__total, .personajes__estado, .personajes__estado--vivos, .personajes__estado--muertos, .personajes__buscador, .tabla__header{
+  display: flex;
+  align-items: center;
+}
+
+.personajes__total, .personajes__estado{
+  border: 1px solid var(--gris-color);
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.personajes__total--text, .personajes__estado--vivos-text, .personajes__estado--muertos-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--header-table);
+  margin-right: 10px;
+}
+
+.personajes__total--numero, .personajes__estado--vivos-numero, .personajes__estado--muertos-numero{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gris-color);
+}
+
+.personajes__estado{
+  margin: 0 16px;
+}
+
+.personajes__estado--vivos-text, .personajes__estado--muertos-text{
+  margin-left: 10px;
+}
+
+.separador{
+  margin: 0 12px;
+  color: var(--gris-color);
+}
+
+.personajes__buscador, .personajes__buscador--input{
+  border: 0;
+  background-color: var(--background-buscador);
+  padding: 5px 8px;
+  border-radius: 18px;
+  outline: none;
+}
+
+.personajes__buscador--input::placeholder{
+  color: var(--placeholder-color);
+}
+
+.tabla{
+  max-width: 1282px;
+  margin: 24px 32px;
+  border: 1px solid var(--gris-color);
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px 2px rgba(0,0,0,0.55);
+}
+
+.tabla__header{
+  justify-content: space-between;
+  background-color: var(--header-table);
+  padding: 15px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.table__header-titles{
+  list-style: none;
+  color: var(--table-titles-color);
+}
+
+.personaje__img{
+  width: 100%;
+  border-radius: 10px;
+}
